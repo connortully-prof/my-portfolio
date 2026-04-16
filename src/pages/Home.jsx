@@ -1,6 +1,12 @@
 import React from "react";
+import { motion } from "framer-motion";
 function Home() {
     return (
+        <motion.main
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0}}
+            transition={{ duration: 0.6 }}
+            >
         <main>
             {/* Hero Section */}
             <section className="hero">
@@ -43,6 +49,7 @@ function Home() {
                 <p>Github: github.com/connortully-prof</p>
             </section>
         </main>
+        </motion.main>
     );
 }
 
