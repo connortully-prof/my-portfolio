@@ -1,3 +1,4 @@
+import React from "react";
 function Home() {
     return (
         <main>
@@ -20,16 +21,17 @@ function Home() {
                 <h2>Projects</h2>
                 <div className="projects-grid">
                     <ProjectCard
-                        title="Project 1"
-                        desc="A cool web app built with React."
+                        title="Project 1: Fruit Fly Tracker"
+                        desc="My capstone project for this semester involved working with a professor on campus that does expirements
+                        with fruit flies. My team and I created a program that tracks the motion of fruit flies and calculates their distance, speed, and velocity."
                     />
                     <ProjectCard
-                        title="Project 2"
-                        desc="An Express API for managing tasks."
+                        title="Project 2: AI algorithms"
+                        desc="For the final project in my introduction to AI class we are using different algorithms to analyze data."
                     />
                     <ProjectCard
-                        title="Project 3"
-                        desc="A portfolio website (this one!)."
+                        title="Project 3: Minecraft Bug Mod"
+                        desc="This is a personal project of mine where I am creating a mod for minecraft that involves adding insects and other objects to interact with them."
                     />
                 </div>
             </section>

@@ -1,3 +1,4 @@
+import React from "react";
 function Blog(){
     return(
         <main className="section">
@@ -5,7 +6,9 @@ function Blog(){
             <p>Welcome to my blog! This is where I'll document my spring break adventures!</p>
             <article className="blog-post">
                 <h3>Spring Break 2026</h3>
-                <p>teehee</p>
+                <p>I went to a beach in long beach called flat rock point.</p>
+                <p>The purpose of this visit was to specifically find crystals</p>
+                <p>The goal was accomplished here is a pic of the crystals I got</p>
             </article>
         </main>
     );
