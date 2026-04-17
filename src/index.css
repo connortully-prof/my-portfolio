@@ -11,7 +11,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background: #1a1a2e;
+    background: #092c08;
     color: #fff;
     position: sticky;
     top: 0;
@@ -20,7 +20,7 @@ body {
 .nav-logo {
     font-size: 1.4rem;
     font-weight: bold;
-    color: #e94560;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -30,12 +30,12 @@ body {
     margin-left: 1.5rem;
 }
 
-.nav-links a:hover { color: #e94560; }
+.nav-links a:hover { color: #104821; }
 
 .hero {
     text-align: center;
     padding: 6rem 2rem;
-    background: linear-gradient(135deg, #0f3460, #16213e);
+    background: linear-gradient(135deg, #0f6016, #123915);
     color: #fff;
 }
 
@@ -51,7 +51,7 @@ body {
 .section h2 {
     font-size:2rem;
     margin-bottom: 1rem;
-    color: #0f3460;
+    color: #0a3f15;
 }
 
 .projects-grid {
@@ -72,10 +72,10 @@ body {
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-.project-card h3 { color: #e94560; margin-bottom: 0.5rem; }
+.project-card h3 { color: #0b4118; margin-bottom: 0.5rem; }
 
 .blog-post {
-    border-left: 4px solid #e94560;
+    border-left: 4px solid #0d461f;
     padding: 1rem 1.5rem;
     margin-top: 1.5rem;
     background: #f9f9f9;
@@ -84,4 +84,32 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+.blog-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.blog-item {
+  width: 300px;
+  text-align: center;
+}
+
+.blog-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.blog-item h3 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.blog-item p {
+  font-size: 16px;
+  color: #444;
 }
