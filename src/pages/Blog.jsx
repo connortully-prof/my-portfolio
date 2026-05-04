@@ -57,7 +57,9 @@ function Blog() {
             In the second plot I have broccoli, beets, dill, cucumbers, nasturiums, chamomile, and sunflowers. In my third garden bed I have strawberries and one lone potato plant. 
         </p>
       </article>
-      
+
+        <div className="blog-items">
+
         <motion.div
           className="blog-item"
           initial={{ opacity: 0, y: 30 }}
@@ -86,6 +88,7 @@ function Blog() {
             The carrots and beets are the first things I planted and they took the least time to grow so im harvesting some of them first.
           </p>
         </motion.div>
+        </div>
     </main>
   );
 }
