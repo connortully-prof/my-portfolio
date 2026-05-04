@@ -38,7 +38,8 @@ body {
 .hero {
     text-align: center;
     padding: 6rem 2rem;
-    background: none;
+    background: linear-gradient(135deg, #0f6016, #123915);
+    color: #f4e9d8;
 }
 
 .hero h1 { font-size: 2.8rem; margin-bottom: 0.5rem;}
@@ -48,9 +49,7 @@ body {
     max-width: 900px;
     margin: 0 auto;
     padding: 4rem 2rem;
-    background-color: #f4e9d8;
-    background-image: url("/my-portfolio/paper-fibers.jpg");
-    background-repeat: repeat;
+    background-color: #fff;
 }
 
 .section h2 {
@@ -66,7 +65,8 @@ body {
     margin-top: 1rem;
 }
 
-.project-card{
+.project-card {
+    background: #ffffff;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 1.5rem;
