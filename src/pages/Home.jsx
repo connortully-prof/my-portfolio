@@ -79,6 +79,14 @@ function Home() {
         >
             github.com/connortully-prof
         </a>
+        <br />
+        <a
+            href="www.linkedin.com/in/connor-tully-b16986254"
+            target="_blank"
+            className="contact-link"
+        >
+            LinkedIn
+        </a>
       </section>
     </motion.main>
   );
