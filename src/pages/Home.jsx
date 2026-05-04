@@ -24,6 +24,7 @@ function Home() {
         <h2>About me</h2>
         <p>
           I'm a student learning web development. I love building things with code and exploring new technologies. Currently studying at CSUSM. My hobbies include Gardening, Cooking, Geology, Entomology, and Gaming.
+          Im graduating this semester with my bachelors in computer science and am hoping I can get a job or at least a paid internship after graduating. Wish me luck everyone!!
         </p>
       </section>
 
