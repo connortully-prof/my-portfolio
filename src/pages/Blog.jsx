@@ -49,6 +49,43 @@ function Blog() {
         </motion.div>
 
       </div>
+
+      <article className="blog-post">
+        <h3>Garden Feb-May 2026</h3>
+        <p>
+            This season I have 3 plots in total in my garden as opposed to the 1 I had last season. In the first garden plot I currently have carrots, lettuce, onions, and marigolds planted. I am planning on adding some tomatoes to the garden when they grow enough.
+            In the second plot I have broccoli, beets, dill, cucumbers, nasturiums, chamomile, and sunflowers. In my third garden bed I have strawberries and one lone potato plant. 
+        </p>
+
+        <motion.div
+          className="blog-item"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+        >
+          <img src="/my-portfolio/gardenplots.jpg" alt="Image of garden plots" />
+          <h3>Picture of my whole garden</h3>
+          <p>
+            This is a picture of the garden plots as of today with all my crops in it,
+            The far one is the one with the carrots, the one to the left of that is the one with the beets,
+            and the one closest to me is the strawberry bed.
+          </p>
+        </motion.div>
+
+        <motion.div
+          className="blog-item"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+        >
+          <img src="/my-portfolio/basket.jpg" alt="Image of carrots and beets" />
+          <h3>Crops Harvested</h3>
+          <p>
+            This is a picture of the crops that I picked from my first harvest with my tortoise in the background grabbing a bite.
+            The carrots and beets are the first things I planted and they took the least time to grow so im harvesting some of them first.
+          </p>
+        </motion.div>
+      </article>
     </main>
   );
 }
