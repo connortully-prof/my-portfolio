@@ -9,6 +9,12 @@ body {
     background-repeat: repeat;
 }
 
+#section {
+    background-color: #f4e9d8;
+    background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png");
+    background-repeat: repeat;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
