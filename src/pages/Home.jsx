@@ -56,8 +56,19 @@ function Home() {
       {/* Contact Section */}
       <section id="contact" className="section">
         <h2>Contact</h2>
-        <a href="mailto:connortully1974@gmail.com">connortully1974@gmail.com</a>
-        <a href="https://github.com/connortully-prof" target="_blank" rel="noopener noreferrer">
+        <a 
+            href="mailto:connortully1974@gmail.com" 
+            className="contact-link"
+        >
+            connortully1974@gmail.com
+        </a>
+        <br />
+        <a 
+            href="https://github.com/connortully-prof" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="contact-link"
+        >
             github.com/connortully-prof
         </a>
       </section>

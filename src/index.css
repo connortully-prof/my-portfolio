@@ -118,3 +118,17 @@ html {
   font-size: 16px;
   color: #444;
 }
+
+.contact-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  color: #101884;
+  text-decoration: underline;
+}
