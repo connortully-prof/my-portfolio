@@ -81,7 +81,7 @@ function Home() {
         </a>
         <br />
         <a
-            href="www.linkedin.com/in/connor-tully-b16986254"
+            href="https://www.linkedin.com/in/connor-tully-b16986254/"
             target="_blank"
             className="contact-link"
         >
