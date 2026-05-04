@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useLocation, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
+import { HashLink } from "react-router-hash-link";
 
 function App() {
   return (
@@ -13,9 +14,9 @@ function App() {
           <Link to="/" className="nav-logo">MyPortfolio</Link>
 
           <div className="nav-links">
-            <Link to="#about">About</Link>
-            <Link to="#projects">Projects</Link>
-            <Link to="#contact">Contact</Link>
+            <HashLink smooth to="/#about">About</HashLink>
+            <HashLink smooth to="/#projects">Projects</HashLink>
+            <HashLink smooth to="/#contact">Contact</HashLink>
             <Link to="/blog">Blog</Link>
           </div>
         </nav>
