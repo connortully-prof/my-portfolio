@@ -34,6 +34,7 @@ function Home() {
                 Capstone
               </a>
             }
+            img="/my-portfolio/flytracker.jpg"
           />
 
           <ProjectCard
@@ -44,11 +45,13 @@ function Home() {
                 AI Algorithms
               </a>
             }
+            img="/my-portfolio/ai.jpg"
           />
 
           <ProjectCard
             title="Project 3: Minecraft Bug Mod"
             desc="This is a personal project of mine where I am creating a mod for Minecraft that involves adding insects and other objects to interact with them."
+            img="/my-portfolio/minecraftbug.jpg"
           />
         </div>
       </section>
@@ -76,12 +79,13 @@ function Home() {
   );
 }
 
-function ProjectCard({ title, desc, link }) {
+function ProjectCard({ title, desc, link, img }) {
   return (
     <div className="project-card">
       <h3>{title}</h3>
       <p>{desc}</p>
       {link && <h4>{link}</h4>}
+      {img && <img src={img} alt={title} className="project-img" />}
     </div>
   );
 }
