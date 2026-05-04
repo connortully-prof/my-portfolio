@@ -10,6 +10,11 @@ function Home() {
     >
       {/* Hero Section */}
       <section className="hero">
+        <img 
+            src="/my-portfolio/profile_pic.jpg" 
+            alt="Connor Tully" 
+            className="profile-pic" 
+        />
         <h1>Hi, I'm Connor Tully</h1>
         <p>Aspiring web developer & creative thinker</p>
       </section>

@@ -18,6 +18,9 @@ body {
     color: #fff;
     position: sticky;
     top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 999;
 }
 
 .nav-logo {
@@ -146,4 +149,18 @@ html {
 .contact-link:hover {
   color: #101884;
   text-decoration: underline;
+}
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #5a3e2b;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+html, body {
+  overflow-x: hidden;
 }
