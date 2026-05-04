@@ -39,7 +39,7 @@ function Blog() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <img src="/my-portfolio/crystals.jpg" alt="Image of crystals collected" />
+          <img src="/my-portfolio/crystal.jpg" alt="Image of crystals collected" />
           <h3>Crystals Collected</h3>
           <p>
             This is a picture of the crystals I was able to find on the beach.

@@ -5,7 +5,7 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #f4e9d8;
-    background-image: url("/my-portfolio/paper-fibers.png");
+    background-image: url("./paper-fibers.png");
     background-repeat: repeat;
 }
 
@@ -50,7 +50,7 @@ body {
     margin: 0 auto;
     padding: 4rem 2rem;
     background-color: #f4e9d8;
-    background-image: url("/my-portfolio/paper-fibers.png");
+    background-image: url("./paper-fibers.png");
     background-repeat: repeat;
 }
 
