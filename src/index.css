@@ -4,7 +4,9 @@ body {
     font-family: 'Georgia', serif;
     line-height: 1.6;
     color: #333;
-    background: #f4e9d8 url("https://www.transparenttextures.com/patterns/paper-fibers.png");
+    background-color: #f4e9d8;
+    background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png");
+    background-repeat: repeat;
 }
 
 .navbar {
