@@ -56,7 +56,8 @@ function Blog() {
             This season I have 3 plots in total in my garden as opposed to the 1 I had last season. In the first garden plot I currently have carrots, lettuce, onions, and marigolds planted. I am planning on adding some tomatoes to the garden when they grow enough.
             In the second plot I have broccoli, beets, dill, cucumbers, nasturiums, chamomile, and sunflowers. In my third garden bed I have strawberries and one lone potato plant. 
         </p>
-
+      </article>
+      
         <motion.div
           className="blog-item"
           initial={{ opacity: 0, y: 30 }}
@@ -85,7 +86,6 @@ function Blog() {
             The carrots and beets are the first things I planted and they took the least time to grow so im harvesting some of them first.
           </p>
         </motion.div>
-      </article>
     </main>
   );
 }
