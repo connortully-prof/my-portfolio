@@ -3,7 +3,7 @@
 body {
     font-family: 'Georgia', serif;
     line-height: 1.6;
-    color: #333;
+    color: #000000;
     background-color: #f4e9d8;
     background-image: url("/my-portfolio/paper-fibers.jpg");
     background-repeat: repeat;
@@ -55,7 +55,7 @@ body {
 .section h2 {
     font-size:2rem;
     margin-bottom: 1rem;
-    color: #0a3f15;
+    color: #000000;
 }
 
 .projects-grid {
@@ -116,7 +116,7 @@ html {
 
 .blog-item p {
   font-size: 16px;
-  color: #444;
+  color: #000000;
 }
 
 .contact-link {
